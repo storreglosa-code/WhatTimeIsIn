@@ -27,7 +27,7 @@ namespace WhatTimeIsIn
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            var tZone = TimeZoneInfo.FindSystemTimeZoneById("Australia Standard Time");
+            var tZone = TimeZoneInfo.FindSystemTimeZoneById("E. Australia Standard Time");
             var australiaDate = TimeZoneInfo.ConvertTime(DateTime.Now, tZone);
 
             lblTime2.Text = australiaDate.ToString("HH:mm");
@@ -38,18 +38,24 @@ namespace WhatTimeIsIn
 
         private void timer3_Tick(object sender, EventArgs e)
         {
-            lblTime3.Text = DateTime.Now.ToString("HH:mm");
-            lblTicks3.Text = DateTime.Now.ToString("ss");
-            lblDate3.Text = DateTime.Now.ToString("dd MMM yyyy");
-            lblDay3.Text = DateTime.Now.ToString("dddd").ToUpper();
+            var tZone = TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time");
+            var tokyoDate = TimeZoneInfo.ConvertTime(DateTime.Now, tZone);
+
+            lblTime3.Text = tokyoDate.ToString("HH:mm");
+            lblTicks3.Text = tokyoDate.ToString("ss");
+            lblDate3.Text = tokyoDate.ToString("dd MMM yyyy");
+            lblDay3.Text = tokyoDate.ToString("dddd").ToUpper();
         }
 
         private void timer4_Tick(object sender, EventArgs e)
         {
-            lblTime4.Text = DateTime.Now.ToString("HH:mm");
-            lblTicks4.Text = DateTime.Now.ToString("ss");
-            lblDate4.Text = DateTime.Now.ToString("dd MMM yyyy");
-            lblDay4.Text = DateTime.Now.ToString("dddd").ToUpper();
+            var tZone = TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time");
+            var russiaDate = TimeZoneInfo.ConvertTime(DateTime.Now, tZone);
+
+            lblTime4.Text = russiaDate.ToString("HH:mm");
+            lblTicks4.Text = russiaDate.ToString("ss");
+            lblDate4.Text = russiaDate.ToString("dd MMM yyyy");
+            lblDay4.Text = russiaDate.ToString("dddd").ToUpper();
         }
     }
 }
