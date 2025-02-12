@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
+            lblDay1 = new Label();
+            lblDate1 = new Label();
+            lblTicks1 = new Label();
             lblTime1 = new Label();
             lblCity1 = new Label();
-            lblTicks1 = new Label();
-            lblDate1 = new Label();
-            lblDay1 = new Label();
             panel2 = new Panel();
             lblDay2 = new Label();
             lblDate2 = new Label();
@@ -52,6 +53,10 @@
             lblTicks4 = new Label();
             lblTime4 = new Label();
             lblCity4 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
+            timer2 = new System.Windows.Forms.Timer(components);
+            timer3 = new System.Windows.Forms.Timer(components);
+            timer4 = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -70,6 +75,42 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(489, 294);
             panel1.TabIndex = 0;
+            // 
+            // lblDay1
+            // 
+            lblDay1.AutoSize = true;
+            lblDay1.BorderStyle = BorderStyle.Fixed3D;
+            lblDay1.Font = new Font("DS-Digital", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDay1.ForeColor = SystemColors.HighlightText;
+            lblDay1.Location = new Point(293, 225);
+            lblDay1.Name = "lblDay1";
+            lblDay1.Size = new Size(179, 38);
+            lblDay1.TabIndex = 4;
+            lblDay1.Text = "Wednesday";
+            // 
+            // lblDate1
+            // 
+            lblDate1.AutoSize = true;
+            lblDate1.BorderStyle = BorderStyle.Fixed3D;
+            lblDate1.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDate1.ForeColor = SystemColors.HighlightText;
+            lblDate1.Location = new Point(16, 214);
+            lblDate1.Name = "lblDate1";
+            lblDate1.Size = new Size(249, 49);
+            lblDate1.TabIndex = 3;
+            lblDate1.Text = "Feb 12 2025";
+            // 
+            // lblTicks1
+            // 
+            lblTicks1.AutoSize = true;
+            lblTicks1.BorderStyle = BorderStyle.Fixed3D;
+            lblTicks1.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTicks1.ForeColor = SystemColors.HighlightText;
+            lblTicks1.Location = new Point(322, 102);
+            lblTicks1.Name = "lblTicks1";
+            lblTicks1.Size = new Size(70, 49);
+            lblTicks1.TabIndex = 2;
+            lblTicks1.Text = "30";
             // 
             // lblTime1
             // 
@@ -93,42 +134,6 @@
             lblCity1.Size = new Size(227, 39);
             lblCity1.TabIndex = 0;
             lblCity1.Text = "Buenos Aires";
-            // 
-            // lblTicks1
-            // 
-            lblTicks1.AutoSize = true;
-            lblTicks1.BorderStyle = BorderStyle.Fixed3D;
-            lblTicks1.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblTicks1.ForeColor = SystemColors.HighlightText;
-            lblTicks1.Location = new Point(308, 102);
-            lblTicks1.Name = "lblTicks1";
-            lblTicks1.Size = new Size(70, 49);
-            lblTicks1.TabIndex = 2;
-            lblTicks1.Text = "30";
-            // 
-            // lblDate1
-            // 
-            lblDate1.AutoSize = true;
-            lblDate1.BorderStyle = BorderStyle.Fixed3D;
-            lblDate1.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblDate1.ForeColor = SystemColors.HighlightText;
-            lblDate1.Location = new Point(16, 214);
-            lblDate1.Name = "lblDate1";
-            lblDate1.Size = new Size(249, 49);
-            lblDate1.TabIndex = 3;
-            lblDate1.Text = "Feb 12 2025";
-            // 
-            // lblDay1
-            // 
-            lblDay1.AutoSize = true;
-            lblDay1.BorderStyle = BorderStyle.Fixed3D;
-            lblDay1.Font = new Font("DS-Digital", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblDay1.ForeColor = SystemColors.HighlightText;
-            lblDay1.Location = new Point(293, 225);
-            lblDay1.Name = "lblDay1";
-            lblDay1.Size = new Size(179, 38);
-            lblDay1.TabIndex = 4;
-            lblDay1.Text = "Wednesday";
             // 
             // panel2
             // 
@@ -173,7 +178,7 @@
             lblTicks2.BorderStyle = BorderStyle.Fixed3D;
             lblTicks2.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTicks2.ForeColor = SystemColors.HighlightText;
-            lblTicks2.Location = new Point(308, 102);
+            lblTicks2.Location = new Point(322, 102);
             lblTicks2.Name = "lblTicks2";
             lblTicks2.Size = new Size(70, 49);
             lblTicks2.TabIndex = 2;
@@ -245,7 +250,7 @@
             lblTicks3.BorderStyle = BorderStyle.Fixed3D;
             lblTicks3.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTicks3.ForeColor = SystemColors.HighlightText;
-            lblTicks3.Location = new Point(308, 102);
+            lblTicks3.Location = new Point(322, 102);
             lblTicks3.Name = "lblTicks3";
             lblTicks3.Size = new Size(70, 49);
             lblTicks3.TabIndex = 2;
@@ -317,7 +322,7 @@
             lblTicks4.BorderStyle = BorderStyle.Fixed3D;
             lblTicks4.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTicks4.ForeColor = SystemColors.HighlightText;
-            lblTicks4.Location = new Point(308, 102);
+            lblTicks4.Location = new Point(322, 102);
             lblTicks4.Name = "lblTicks4";
             lblTicks4.Size = new Size(70, 49);
             lblTicks4.TabIndex = 2;
@@ -346,18 +351,35 @@
             lblCity4.TabIndex = 0;
             lblCity4.Text = "Amsterdam";
             // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
+            // timer2
+            // 
+            timer2.Tick += timer2_Tick;
+            // 
+            // timer3
+            // 
+            timer3.Tick += timer3_Tick;
+            // 
+            // timer4
+            // 
+            timer4.Tick += timer4_Tick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Desktop;
-            ClientSize = new Size(1128, 658);
+            ClientSize = new Size(1100, 658);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "Form1";
             Text = "What Time Is In...";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
@@ -395,5 +417,9 @@
         private Label lblTicks4;
         private Label lblTime4;
         private Label lblCity4;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Timer timer4;
     }
 }
