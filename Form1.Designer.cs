@@ -80,11 +80,11 @@
             // 
             lblDay1.AutoSize = true;
             lblDay1.BorderStyle = BorderStyle.Fixed3D;
-            lblDay1.Font = new Font("DS-Digital", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDay1.Font = new Font("Microsoft Sans Serif", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDay1.ForeColor = SystemColors.HighlightText;
             lblDay1.Location = new Point(293, 225);
             lblDay1.Name = "lblDay1";
-            lblDay1.Size = new Size(179, 38);
+            lblDay1.Size = new Size(219, 44);
             lblDay1.TabIndex = 4;
             lblDay1.Text = "Wednesday";
             // 
@@ -92,11 +92,11 @@
             // 
             lblDate1.AutoSize = true;
             lblDate1.BorderStyle = BorderStyle.Fixed3D;
-            lblDate1.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDate1.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDate1.ForeColor = SystemColors.HighlightText;
             lblDate1.Location = new Point(16, 214);
             lblDate1.Name = "lblDate1";
-            lblDate1.Size = new Size(249, 49);
+            lblDate1.Size = new Size(297, 57);
             lblDate1.TabIndex = 3;
             lblDate1.Text = "Feb 12 2025";
             // 
@@ -104,11 +104,11 @@
             // 
             lblTicks1.AutoSize = true;
             lblTicks1.BorderStyle = BorderStyle.Fixed3D;
-            lblTicks1.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTicks1.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTicks1.ForeColor = SystemColors.HighlightText;
             lblTicks1.Location = new Point(322, 102);
             lblTicks1.Name = "lblTicks1";
-            lblTicks1.Size = new Size(70, 49);
+            lblTicks1.Size = new Size(80, 57);
             lblTicks1.TabIndex = 2;
             lblTicks1.Text = "30";
             // 
@@ -116,11 +116,11 @@
             // 
             lblTime1.AutoSize = true;
             lblTime1.BorderStyle = BorderStyle.Fixed3D;
-            lblTime1.Font = new Font("DS-Digital", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTime1.Font = new Font("Microsoft Sans Serif", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTime1.ForeColor = SystemColors.HighlightText;
             lblTime1.Location = new Point(87, 80);
             lblTime1.Name = "lblTime1";
-            lblTime1.Size = new Size(229, 97);
+            lblTime1.Size = new Size(286, 110);
             lblTime1.TabIndex = 1;
             lblTime1.Text = "08:15";
             // 
@@ -152,11 +152,11 @@
             // 
             lblDay2.AutoSize = true;
             lblDay2.BorderStyle = BorderStyle.Fixed3D;
-            lblDay2.Font = new Font("DS-Digital", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDay2.Font = new Font("Microsoft Sans Serif", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDay2.ForeColor = SystemColors.HighlightText;
             lblDay2.Location = new Point(293, 225);
             lblDay2.Name = "lblDay2";
-            lblDay2.Size = new Size(179, 38);
+            lblDay2.Size = new Size(219, 44);
             lblDay2.TabIndex = 4;
             lblDay2.Text = "Wednesday";
             // 
@@ -164,11 +164,11 @@
             // 
             lblDate2.AutoSize = true;
             lblDate2.BorderStyle = BorderStyle.Fixed3D;
-            lblDate2.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDate2.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDate2.ForeColor = SystemColors.HighlightText;
             lblDate2.Location = new Point(16, 214);
             lblDate2.Name = "lblDate2";
-            lblDate2.Size = new Size(249, 49);
+            lblDate2.Size = new Size(297, 57);
             lblDate2.TabIndex = 3;
             lblDate2.Text = "Feb 12 2025";
             // 
@@ -176,11 +176,11 @@
             // 
             lblTicks2.AutoSize = true;
             lblTicks2.BorderStyle = BorderStyle.Fixed3D;
-            lblTicks2.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTicks2.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTicks2.ForeColor = SystemColors.HighlightText;
             lblTicks2.Location = new Point(322, 102);
             lblTicks2.Name = "lblTicks2";
-            lblTicks2.Size = new Size(70, 49);
+            lblTicks2.Size = new Size(80, 57);
             lblTicks2.TabIndex = 2;
             lblTicks2.Text = "30";
             // 
@@ -188,11 +188,11 @@
             // 
             lblTime2.AutoSize = true;
             lblTime2.BorderStyle = BorderStyle.Fixed3D;
-            lblTime2.Font = new Font("DS-Digital", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTime2.Font = new Font("Microsoft Sans Serif", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTime2.ForeColor = SystemColors.HighlightText;
             lblTime2.Location = new Point(87, 80);
             lblTime2.Name = "lblTime2";
-            lblTime2.Size = new Size(229, 97);
+            lblTime2.Size = new Size(286, 110);
             lblTime2.TabIndex = 1;
             lblTime2.Text = "08:15";
             // 
@@ -224,11 +224,11 @@
             // 
             lblDay3.AutoSize = true;
             lblDay3.BorderStyle = BorderStyle.Fixed3D;
-            lblDay3.Font = new Font("DS-Digital", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDay3.Font = new Font("Microsoft Sans Serif", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDay3.ForeColor = SystemColors.HighlightText;
             lblDay3.Location = new Point(293, 225);
             lblDay3.Name = "lblDay3";
-            lblDay3.Size = new Size(179, 38);
+            lblDay3.Size = new Size(219, 44);
             lblDay3.TabIndex = 4;
             lblDay3.Text = "Wednesday";
             // 
@@ -236,11 +236,11 @@
             // 
             lblDate3.AutoSize = true;
             lblDate3.BorderStyle = BorderStyle.Fixed3D;
-            lblDate3.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDate3.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDate3.ForeColor = SystemColors.HighlightText;
             lblDate3.Location = new Point(16, 214);
             lblDate3.Name = "lblDate3";
-            lblDate3.Size = new Size(249, 49);
+            lblDate3.Size = new Size(297, 57);
             lblDate3.TabIndex = 3;
             lblDate3.Text = "Feb 12 2025";
             // 
@@ -248,11 +248,11 @@
             // 
             lblTicks3.AutoSize = true;
             lblTicks3.BorderStyle = BorderStyle.Fixed3D;
-            lblTicks3.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTicks3.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTicks3.ForeColor = SystemColors.HighlightText;
             lblTicks3.Location = new Point(322, 102);
             lblTicks3.Name = "lblTicks3";
-            lblTicks3.Size = new Size(70, 49);
+            lblTicks3.Size = new Size(80, 57);
             lblTicks3.TabIndex = 2;
             lblTicks3.Text = "30";
             // 
@@ -260,11 +260,11 @@
             // 
             lblTime3.AutoSize = true;
             lblTime3.BorderStyle = BorderStyle.Fixed3D;
-            lblTime3.Font = new Font("DS-Digital", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTime3.Font = new Font("Microsoft Sans Serif", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTime3.ForeColor = SystemColors.HighlightText;
             lblTime3.Location = new Point(87, 80);
             lblTime3.Name = "lblTime3";
-            lblTime3.Size = new Size(229, 97);
+            lblTime3.Size = new Size(286, 110);
             lblTime3.TabIndex = 1;
             lblTime3.Text = "08:15";
             // 
@@ -296,11 +296,11 @@
             // 
             lblDay4.AutoSize = true;
             lblDay4.BorderStyle = BorderStyle.Fixed3D;
-            lblDay4.Font = new Font("DS-Digital", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDay4.Font = new Font("Microsoft Sans Serif", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDay4.ForeColor = SystemColors.HighlightText;
             lblDay4.Location = new Point(293, 225);
             lblDay4.Name = "lblDay4";
-            lblDay4.Size = new Size(179, 38);
+            lblDay4.Size = new Size(219, 44);
             lblDay4.TabIndex = 4;
             lblDay4.Text = "Wednesday";
             // 
@@ -308,11 +308,11 @@
             // 
             lblDate4.AutoSize = true;
             lblDate4.BorderStyle = BorderStyle.Fixed3D;
-            lblDate4.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDate4.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDate4.ForeColor = SystemColors.HighlightText;
             lblDate4.Location = new Point(16, 214);
             lblDate4.Name = "lblDate4";
-            lblDate4.Size = new Size(249, 49);
+            lblDate4.Size = new Size(297, 57);
             lblDate4.TabIndex = 3;
             lblDate4.Text = "Feb 12 2025";
             // 
@@ -320,11 +320,11 @@
             // 
             lblTicks4.AutoSize = true;
             lblTicks4.BorderStyle = BorderStyle.Fixed3D;
-            lblTicks4.Font = new Font("DS-Digital", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTicks4.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTicks4.ForeColor = SystemColors.HighlightText;
             lblTicks4.Location = new Point(322, 102);
             lblTicks4.Name = "lblTicks4";
-            lblTicks4.Size = new Size(70, 49);
+            lblTicks4.Size = new Size(80, 57);
             lblTicks4.TabIndex = 2;
             lblTicks4.Text = "30";
             // 
@@ -332,11 +332,11 @@
             // 
             lblTime4.AutoSize = true;
             lblTime4.BorderStyle = BorderStyle.Fixed3D;
-            lblTime4.Font = new Font("DS-Digital", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTime4.Font = new Font("Microsoft Sans Serif", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTime4.ForeColor = SystemColors.HighlightText;
             lblTime4.Location = new Point(87, 80);
             lblTime4.Name = "lblTime4";
-            lblTime4.Size = new Size(229, 97);
+            lblTime4.Size = new Size(286, 110);
             lblTime4.TabIndex = 1;
             lblTime4.Text = "08:15";
             // 
@@ -347,9 +347,9 @@
             lblCity4.ForeColor = SystemColors.HighlightText;
             lblCity4.Location = new Point(137, 18);
             lblCity4.Name = "lblCity4";
-            lblCity4.Size = new Size(204, 39);
+            lblCity4.Size = new Size(119, 39);
             lblCity4.TabIndex = 0;
-            lblCity4.Text = "Amsterdam";
+            lblCity4.Text = "Russia";
             // 
             // timer1
             // 
